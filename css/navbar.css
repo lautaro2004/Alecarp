@@ -1,0 +1,114 @@
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fdfffc;
+}
+.logo-container{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    .logo-img{
+      width: 15%;
+    }
+    .logo-img img{
+      width: 70%;
+    }
+    .logo-text h1{
+        font-family: 'Jura', sans-serif;
+        font-weight: 700;
+        color: #22223b;
+        font-weight: 700;
+        text-align: center;
+        font-size: 42px;
+    }
+.links-container{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .links-container ul{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .links-container ul li{
+        list-style: none;
+    }
+        .links-container ul li a{
+            color: #22223b;
+            font-size: 26px;
+            text-decoration: none;
+            font-family: 'Jura', sans-serif;
+            font-weight: 600;
+        }
+        .links-container ul li a:hover{
+          color: #64b6ac;
+          transition: 0.3s;
+        }
+.btn-container{
+    display: flex;
+    width: 20%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+    .btn-container button{
+        background-color: transparent;
+        width: 40%;
+        height: 100%;
+        border-radius: 25px;
+        border: 2px solid #64b6ac;
+        cursor: pointer;
+        color: #22223b;
+        font-size: 18px;
+        font-family: 'Jura', sans-serif;
+        font-weight: 600;
+        padding: 5px;
+    }
+    .btn-container button:hover{
+      background-color: #64b6ac;
+      border: none;
+      transition: 0.8s ease;
+      color: #fdfffc;
+      font-family: 'Jura', sans-serif;
+      font-weight: 700;
+    }
+
+    .typewriter-text {
+        display: inline-block;
+        overflow: hidden;
+        animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+        white-space: nowrap;
+        border-right: 4px solid #64b6ac;
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      
+      @keyframes blink-caret {
+        from, to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #64b6ac;
+        }
+      }
+
+      
